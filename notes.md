@@ -11,6 +11,11 @@
 - cypress is using jquery
 - When cypress needs to check a test. It will do a poll all the time.
 - .contain
+- use intelli sense when you care on the should method to see the rest of the have.
+- every commands (chainable) is getting queued by cypress. Cypress commands is asynchronous. Then Cypress will then executes the queue of commands.
+- If you use cy.pause(); then you need to click on the pause line in the cypress browser session
+- You can have different cypress.json files and access different environment variables within the cypress.json env: {} section
+
 ```javascript
 cy.get('h1').should('have.text', 'Tour of Heroes');
 cy.get('h1').should('contain', 'Tour of Heroe');

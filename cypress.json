@@ -1,1 +1,8 @@
-{}
+{
+    "baseUrl":"http://localhost:4200",
+    "experimentalStudio" :false,
+    "defaultCommandTimeout": 6000,
+    "env": {
+        "bestDad":"Darth Vader"
+    }
+}
