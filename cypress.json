@@ -1,8 +1,9 @@
 {
     "baseUrl":"http://localhost:4200",
-    "experimentalStudio" :false,
+    "experimentalStudio" :true,
     "defaultCommandTimeout": 6000,
     "env": {
         "bestDad":"Darth Vader"
-    }
+    },
+    "reporter": "nyan"
 }
